@@ -1,0 +1,25 @@
+﻿<Window x:Class="d3m0n_X1_updater.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:d3m0n_X1_updater"
+		WindowStyle="None"
+		AllowsTransparency="True"
+        mc:Ignorable="d"
+        Title="D3M0N Updater" Height="400" Width="800"
+		Background="Transparent"
+		Icon="https://github.com/4RE5Team/D3M0N-X1/raw/main/d3m0n-x1.ico" >
+	
+	<Border CornerRadius="25" BorderBrush="White" BorderThickness="2" Padding="6" Background="Black">  
+		<Grid>  
+			<StackPanel>
+				<Image Width="800" Source="https://user-images.githubusercontent.com/71982379/235346406-b9676648-b80b-40e0-bded-d0422d257047.png" />
+				<ComboBox Margin="20" FontSize="18" Background="#313131" Foreground="Black" Name="Ports">
+				</ComboBox>
+				<Button VerticalAlignment="Bottom" FontSize="18" Background="#313131" Foreground="White" Margin="20" Height="50" Click="install">Install</Button>
+			</StackPanel>
+			<Image MouseLeftButtonDown="close" VerticalAlignment="Top" Height="50" HorizontalAlignment="Right" Width="50" Source="cross.png"/>
+		</Grid>
+	</Border>  
+</Window>
