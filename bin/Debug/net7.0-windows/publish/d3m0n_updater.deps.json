@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "d3m0n_updater/1.0": {
+        "runtime": {
+          "d3m0n_updater.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "d3m0n_updater/1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
