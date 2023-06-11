@@ -15,11 +15,12 @@
 		<Grid>  
 			<StackPanel>
 				<Image Width="800" Source="https://user-images.githubusercontent.com/71982379/235346406-b9676648-b80b-40e0-bded-d0422d257047.png" />
-				<ComboBox Margin="20" FontSize="18" Background="#313131" Foreground="Black" Name="Ports">
+				<ComboBox MouseLeftButtonDown="reload" Margin="20" FontSize="18" Background="#313131" Foreground="Black" Name="Ports">
 				</ComboBox>
 				<Button VerticalAlignment="Bottom" FontSize="18" Background="#313131" Foreground="White" Margin="20" Height="50" Click="install">Install</Button>
 			</StackPanel>
 			<Image MouseLeftButtonDown="close" VerticalAlignment="Top" Height="50" HorizontalAlignment="Right" Width="50" Source="cross.png"/>
+			<Label MouseLeftButtonDown="openproject" FontSize="16" Content="view project on github" VerticalAlignment="Bottom" HorizontalAlignment="Right" Foreground="White" FontWeight="Underlined"></Label>
 		</Grid>
 	</Border>  
 </Window>

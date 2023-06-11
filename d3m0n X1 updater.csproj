@@ -2,12 +2,12 @@
   
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
+	
     <TargetFramework>net7.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
 	<RootNamespace>d3m0n_X1_updater</RootNamespace>
     <AssemblyName>d3m0n_updater</AssemblyName>
     <ApplicationIcon>d3m0n-x1.ico</ApplicationIcon>
-    <Platforms>x64</Platforms>
     <Authors>4RE5 Developers</Authors>
     <RepositoryType>GitHub</RepositoryType>
     <RepositoryUrl>https://github.com/4re5team/D3M0N-X1</RepositoryUrl>
@@ -20,18 +20,6 @@
     <Product>d3m0n updater</Product>
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <PlatformTarget>x64</PlatformTarget>
-    <DebugType>portable</DebugType>
-    <DebugSymbols>true</DebugSymbols>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <PlatformTarget>x64</PlatformTarget>
-    <DebugType>none</DebugType>
-    <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
   
   <ItemGroup>
